@@ -1,7 +1,8 @@
 import { MetricCard } from "@/components/MetricCard";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Eye, MousePointerClick, TrendingUp, DollarSign } from "lucide-react";
+import { Progress } from "@/components/ui/progress";
+import { Eye, MousePointerClick, TrendingUp, DollarSign, Target, Users, Zap } from "lucide-react";
 import {
   LineChart,
   Line,
@@ -30,11 +31,19 @@ const impressionsData = [
 ];
 
 const channelData = [
-  { name: "Social Media", spend: 12500, roi: 3.2, color: "hsl(var(--chart-1))" },
-  { name: "Email", spend: 8200, roi: 4.8, color: "hsl(var(--chart-2))" },
-  { name: "Search Ads", spend: 15800, roi: 2.9, color: "hsl(var(--chart-3))" },
-  { name: "Display", spend: 6300, roi: 2.1, color: "hsl(var(--chart-4))" },
-  { name: "Content", spend: 9100, roi: 3.7, color: "hsl(var(--chart-5))" },
+  { name: "Social Media", spend: 12500, roi: 3.2, budget: 15000, cpc: 2.4, ctr: 4.8, color: "hsl(var(--chart-1))" },
+  { name: "Email", spend: 8200, roi: 4.8, budget: 10000, cpc: 0.8, ctr: 6.2, color: "hsl(var(--chart-2))" },
+  { name: "Search Ads", spend: 15800, roi: 2.9, budget: 18000, cpc: 3.1, ctr: 3.9, color: "hsl(var(--chart-3))" },
+  { name: "Display", spend: 6300, roi: 2.1, budget: 7000, cpc: 1.9, ctr: 2.1, color: "hsl(var(--chart-4))" },
+  { name: "Content", spend: 9100, roi: 3.7, budget: 10000, cpc: 1.2, ctr: 5.4, color: "hsl(var(--chart-5))" },
+];
+
+const leadSourceData = [
+  { source: "Organic Search", leads: 1240, cost: 8200, cpl: 6.61, color: "hsl(var(--chart-1))" },
+  { source: "Paid Social", leads: 890, cost: 12500, cpl: 14.04, color: "hsl(var(--chart-2))" },
+  { source: "Email Campaign", leads: 650, cost: 3200, cpl: 4.92, color: "hsl(var(--chart-3))" },
+  { source: "Referral", leads: 420, cost: 2100, cpl: 5.00, color: "hsl(var(--chart-4))" },
+  { source: "Direct", leads: 380, cost: 1500, cpl: 3.95, color: "hsl(var(--chart-5))" },
 ];
 
 const campaignData = [
@@ -90,6 +99,30 @@ export default function MarketingDashboard() {
           change={-5.2}
           changeLabel="vs last month"
           icon={DollarSign}
+        />
+      </div>
+
+      <div className="grid gap-4 md:grid-cols-3">
+        <MetricCard
+          title="Marketing ROI"
+          value="3.4x"
+          change={8.9}
+          changeLabel="vs target"
+          icon={Target}
+        />
+        <MetricCard
+          title="Total Leads"
+          value="3,580"
+          change={15.2}
+          changeLabel="vs last month"
+          icon={Users}
+        />
+        <MetricCard
+          title="Cost Per Lead"
+          value="$8.12"
+          change={-12.3}
+          changeLabel="vs last month"
+          icon={Zap}
         />
       </div>
 
@@ -177,6 +210,94 @@ export default function MarketingDashboard() {
       <div className="grid gap-4 md:grid-cols-2">
         <Card>
           <CardHeader>
+            <CardTitle>Budget vs Spend by Channel</CardTitle>
+            <p className="text-sm text-muted-foreground">Real-time tracking of allocated vs actual spend</p>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {channelData.map((channel) => {
+              const spendPercentage = (channel.spend / channel.budget) * 100;
+              return (
+                <div key={channel.name} className="space-y-2">
+                  <div className="flex items-center justify-between text-sm">
+                    <span className="font-medium">{channel.name}</span>
+                    <span className="text-muted-foreground">
+                      ${channel.spend.toLocaleString()} / ${channel.budget.toLocaleString()}
+                    </span>
+                  </div>
+                  <Progress value={spendPercentage} className="h-2" />
+                  <div className="flex items-center justify-between text-xs text-muted-foreground">
+                    <span>{spendPercentage.toFixed(1)}% utilized</span>
+                    <span className={spendPercentage > 90 ? "text-yellow-600 font-medium" : ""}>
+                      ${(channel.budget - channel.spend).toLocaleString()} remaining
+                    </span>
+                  </div>
+                </div>
+              );
+            })}
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Lead Sources</CardTitle>
+            <p className="text-sm text-muted-foreground">Cost per lead by acquisition channel</p>
+          </CardHeader>
+          <CardContent>
+            <ResponsiveContainer width="100%" height={300}>
+              <BarChart data={leadSourceData} layout="vertical">
+                <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+                <XAxis type="number" stroke="hsl(var(--muted-foreground))" />
+                <YAxis dataKey="source" type="category" width={100} stroke="hsl(var(--muted-foreground))" />
+                <Tooltip
+                  contentStyle={{
+                    backgroundColor: "hsl(var(--card))",
+                    border: "1px solid hsl(var(--border))",
+                    borderRadius: "var(--radius)",
+                  }}
+                />
+                <Bar dataKey="cpl" fill="hsl(var(--chart-2))" radius={[0, 8, 8, 0]} name="Cost Per Lead ($)" />
+              </BarChart>
+            </ResponsiveContainer>
+          </CardContent>
+        </Card>
+      </div>
+
+      <div className="grid gap-4 md:grid-cols-2">
+        <Card>
+          <CardHeader>
+            <CardTitle>Channel Performance Metrics</CardTitle>
+            <p className="text-sm text-muted-foreground">CPC and CTR comparison across channels</p>
+          </CardHeader>
+          <CardContent>
+            <div className="overflow-x-auto">
+              <table className="w-full">
+                <thead>
+                  <tr className="border-b">
+                    <th className="text-left py-3 px-4 font-medium">Channel</th>
+                    <th className="text-left py-3 px-4 font-medium">CPC</th>
+                    <th className="text-left py-3 px-4 font-medium">CTR</th>
+                    <th className="text-left py-3 px-4 font-medium">ROI</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {channelData.map((channel) => (
+                    <tr key={channel.name} className="border-b hover:bg-muted/50">
+                      <td className="py-3 px-4 font-medium">{channel.name}</td>
+                      <td className="py-3 px-4 text-muted-foreground">${channel.cpc.toFixed(2)}</td>
+                      <td className="py-3 px-4 text-muted-foreground">{channel.ctr}%</td>
+                      <td className="py-3 px-4">
+                        <Badge variant="default">{channel.roi}x</Badge>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
             <CardTitle>Conversion Funnel</CardTitle>
             <p className="text-sm text-muted-foreground">Customer journey stages</p>
           </CardHeader>
@@ -198,30 +319,6 @@ export default function MarketingDashboard() {
                     <Cell key={`cell-${index}`} fill={entry.color} />
                   ))}
                 </Bar>
-              </BarChart>
-            </ResponsiveContainer>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>ROI by Channel</CardTitle>
-            <p className="text-sm text-muted-foreground">Return on investment per marketing channel</p>
-          </CardHeader>
-          <CardContent>
-            <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={channelData} layout="vertical">
-                <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                <XAxis type="number" stroke="hsl(var(--muted-foreground))" />
-                <YAxis dataKey="name" type="category" width={100} stroke="hsl(var(--muted-foreground))" />
-                <Tooltip
-                  contentStyle={{
-                    backgroundColor: "hsl(var(--card))",
-                    border: "1px solid hsl(var(--border))",
-                    borderRadius: "var(--radius)",
-                  }}
-                />
-                <Bar dataKey="roi" fill="hsl(var(--accent))" radius={[0, 8, 8, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>

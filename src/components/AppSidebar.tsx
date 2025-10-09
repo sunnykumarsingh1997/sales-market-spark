@@ -1,4 +1,4 @@
-import { BarChart3, TrendingUp } from "lucide-react";
+import { BarChart3, TrendingUp, Settings } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import {
   Sidebar,
@@ -15,6 +15,7 @@ import {
 const items = [
   { title: "Sales Analytics", url: "/", icon: TrendingUp },
   { title: "Marketing Performance", url: "/marketing", icon: BarChart3 },
+  { title: "Marketing Parameters", url: "/marketing-parameters", icon: Settings },
 ];
 
 export function AppSidebar() {
