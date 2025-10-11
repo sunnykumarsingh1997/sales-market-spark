@@ -1,5 +1,7 @@
-import { BarChart3, TrendingUp, Settings } from "lucide-react";
+import { BarChart3, TrendingUp, Settings, FileText, Upload, LogOut } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
 import { NavLink } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 import {
   Sidebar,
   SidebarContent,
@@ -16,10 +18,13 @@ const items = [
   { title: "Sales Analytics", url: "/", icon: TrendingUp },
   { title: "Marketing Performance", url: "/marketing", icon: BarChart3 },
   { title: "Marketing Parameters", url: "/marketing-parameters", icon: Settings },
+  { title: "User Guides", url: "/user-guides", icon: FileText },
+  { title: "Power BI Dashboard", url: "/powerbi", icon: Upload },
 ];
 
 export function AppSidebar() {
   const { state } = useSidebar();
+  const { signOut, user } = useAuth();
   const collapsed = state === "collapsed";
 
   return (
@@ -29,6 +34,9 @@ export function AppSidebar() {
           <h2 className={`font-bold text-lg transition-opacity ${collapsed ? "opacity-0" : "opacity-100"}`}>
             SalesVision
           </h2>
+          {user && !collapsed && (
+            <p className="text-xs text-muted-foreground mt-1">{user.email}</p>
+          )}
         </div>
         
         <SidebarGroup>
@@ -53,6 +61,17 @@ export function AppSidebar() {
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
+
+        <div className="mt-auto px-3 py-4">
+          <Button
+            variant="outline"
+            className="w-full justify-start"
+            onClick={signOut}
+          >
+            <LogOut className="h-4 w-4 mr-2" />
+            {!collapsed && <span>Sign Out</span>}
+          </Button>
+        </div>
       </SidebarContent>
     </Sidebar>
   );
