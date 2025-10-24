@@ -8,6 +8,7 @@ import { AuthProvider } from "./contexts/AuthContext";
 import { ProtectedRoute } from "./components/ProtectedRoute";
 import SalesDashboard from "./pages/SalesDashboard";
 import MarketingDashboard from "./pages/MarketingDashboard";
+import CustomerRetentionDashboard from "./pages/CustomerRetentionDashboard";
 import MarketingParameters from "./pages/MarketingParameters";
 import UserGuides from "./pages/UserGuides";
 import PowerBIDashboard from "./pages/PowerBIDashboard";
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/auth" element={<Auth />} />
             <Route path="/" element={<ProtectedRoute><DashboardLayout><SalesDashboard /></DashboardLayout></ProtectedRoute>} />
             <Route path="/marketing" element={<ProtectedRoute><DashboardLayout><MarketingDashboard /></DashboardLayout></ProtectedRoute>} />
+            <Route path="/retention" element={<ProtectedRoute><DashboardLayout><CustomerRetentionDashboard /></DashboardLayout></ProtectedRoute>} />
             <Route path="/marketing-parameters" element={<ProtectedRoute><DashboardLayout><MarketingParameters /></DashboardLayout></ProtectedRoute>} />
             <Route path="/user-guides" element={<ProtectedRoute><DashboardLayout><UserGuides /></DashboardLayout></ProtectedRoute>} />
             <Route path="/powerbi" element={<ProtectedRoute><DashboardLayout><PowerBIDashboard /></DashboardLayout></ProtectedRoute>} />

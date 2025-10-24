@@ -1,4 +1,4 @@
-import { BarChart3, TrendingUp, Settings, FileText, Upload, LogOut } from "lucide-react";
+import { BarChart3, TrendingUp, Settings, FileText, Upload, LogOut, Users } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -17,6 +17,7 @@ import {
 const items = [
   { title: "Sales Analytics", url: "/", icon: TrendingUp },
   { title: "Marketing Performance", url: "/marketing", icon: BarChart3 },
+  { title: "Customer Retention", url: "/retention", icon: Users },
   { title: "Marketing Parameters", url: "/marketing-parameters", icon: Settings },
   { title: "User Guides", url: "/user-guides", icon: FileText },
   { title: "Power BI Dashboard", url: "/powerbi", icon: Upload },
