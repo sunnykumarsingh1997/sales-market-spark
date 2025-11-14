@@ -12,6 +12,7 @@ import CustomerRetentionDashboard from "./pages/CustomerRetentionDashboard";
 import MarketingParameters from "./pages/MarketingParameters";
 import UserGuides from "./pages/UserGuides";
 import PowerBIDashboard from "./pages/PowerBIDashboard";
+import AIInsightsHub from "./pages/AIInsightsHub";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 
@@ -27,6 +28,7 @@ const App = () => (
           <Routes>
             <Route path="/auth" element={<Auth />} />
             <Route path="/" element={<ProtectedRoute><DashboardLayout><SalesDashboard /></DashboardLayout></ProtectedRoute>} />
+            <Route path="/ai-insights" element={<ProtectedRoute><DashboardLayout><AIInsightsHub /></DashboardLayout></ProtectedRoute>} />
             <Route path="/marketing" element={<ProtectedRoute><DashboardLayout><MarketingDashboard /></DashboardLayout></ProtectedRoute>} />
             <Route path="/retention" element={<ProtectedRoute><DashboardLayout><CustomerRetentionDashboard /></DashboardLayout></ProtectedRoute>} />
             <Route path="/marketing-parameters" element={<ProtectedRoute><DashboardLayout><MarketingParameters /></DashboardLayout></ProtectedRoute>} />

@@ -1,4 +1,4 @@
-import { BarChart3, TrendingUp, Settings, FileText, Upload, LogOut, Users } from "lucide-react";
+import { BarChart3, TrendingUp, Settings, FileText, Upload, LogOut, Users, Brain } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/sidebar";
 
 const items = [
+  { title: "AI Insights Hub", url: "/ai-insights", icon: Brain },
   { title: "Sales Analytics", url: "/", icon: TrendingUp },
   { title: "Marketing Performance", url: "/marketing", icon: BarChart3 },
   { title: "Customer Retention", url: "/retention", icon: Users },
