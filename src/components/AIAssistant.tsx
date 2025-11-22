@@ -71,7 +71,7 @@ export const AIAssistant = () => {
             AI Insights Assistant
             <Sparkles className="h-4 w-4 text-primary" />
           </h3>
-          <p className="text-xs text-muted-foreground">Powered by Lovable AI</p>
+          <p className="text-xs text-muted-foreground">Powered by SalesVision AI</p>
         </div>
       </div>
 
@@ -83,11 +83,10 @@ export const AIAssistant = () => {
               className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}
             >
               <div
-                className={`max-w-[80%] rounded-lg p-3 ${
-                  message.role === 'user'
+                className={`max-w-[80%] rounded-lg p-3 ${message.role === 'user'
                     ? 'bg-primary text-primary-foreground'
                     : 'bg-muted'
-                }`}
+                  }`}
               >
                 <p className="text-sm whitespace-pre-wrap">{message.content}</p>
               </div>

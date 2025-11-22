@@ -21,6 +21,9 @@ export const DashboardLayout = ({ children }: DashboardLayoutProps) => {
           <div className="p-6">
             {children}
           </div>
+          <footer className="p-4 text-center text-sm text-muted-foreground border-t">
+            Developed by pinky rawat
+          </footer>
         </main>
       </div>
     </SidebarProvider>
