@@ -1,0 +1,501 @@
+Transaction_ID,Date,Customer_Name,Region,Industry,Product,Quantity,Unit_Price,Total_Value,Sales_Rep,Lead_Source,Deal_Stage,Probability
+TXN-1000,2025-10-30,"Jacobs, Evans and Snyder",LATAM,Finance,Enterprise Pack,3,50000,150000,Sarah Miller,Event,Closed Won,100
+TXN-1001,2025-11-02,Smith LLC,Asia Pacific,Retail,SaaS License Basic,12,500,6000,James Carter,Event,Closed Won,100
+TXN-1002,2025-10-20,Dominguez-Cooper,LATAM,Retail,SaaS License Pro,5,1200,6000,Elena Rodriguez,Cold Call,Proposal,50
+TXN-1003,2025-10-26,Johnson-Patrick,Asia Pacific,Healthcare,AI Module Addon,9,15000,135000,David Kim,LinkedIn,Negotiation,75
+TXN-1004,2025-11-06,Martin-Howard,Asia Pacific,Tech,SaaS License Basic,1,500,500,Sarah Miller,Cold Call,Discovery,20
+TXN-1005,2025-08-30,"Murray, Armstrong and Gonzalez",North America,Manufacturing,SaaS License Basic,12,500,6000,David Kim,LinkedIn,Discovery,20
+TXN-1006,2025-09-08,"Ramirez, Cooper and Mason",LATAM,Tech,Consulting Hours,19,150,2850,Elena Rodriguez,LinkedIn,Closed Won,100
+TXN-1007,2025-11-14,Burch-Martin,LATAM,Healthcare,Enterprise Pack,13,50000,650000,James Carter,Referral,Closed Lost,0
+TXN-1008,2025-09-05,Silva-Fernandez,Asia Pacific,Retail,Consulting Hours,2,150,300,James Carter,Website,Negotiation,75
+TXN-1009,2025-10-27,"King, Harmon and Krueger",North America,Healthcare,Enterprise Pack,2,50000,100000,Elena Rodriguez,LinkedIn,Closed Won,100
+TXN-1010,2025-08-30,Santiago Inc,Asia Pacific,Manufacturing,AI Module Addon,13,15000,195000,James Carter,Website,Negotiation,75
+TXN-1011,2025-10-05,Nunez and Sons,Europe,Tech,AI Module Addon,7,15000,105000,Elena Rodriguez,Referral,Closed Won,100
+TXN-1012,2025-10-03,Walters PLC,North America,Tech,Consulting Hours,5,150,750,David Kim,Referral,Closed Won,100
+TXN-1013,2025-10-27,Donaldson-Becker,North America,Finance,AI Module Addon,15,15000,225000,James Carter,Referral,Discovery,20
+TXN-1014,2025-09-11,"Hicks, Gonzalez and Harris",Asia Pacific,Retail,Consulting Hours,2,150,300,James Carter,Website,Qualifying,20
+TXN-1015,2025-08-31,"Wood, Palmer and Meyer",LATAM,Tech,SaaS License Pro,5,1200,6000,David Kim,Referral,Negotiation,75
+TXN-1016,2025-11-17,Martin Group,Asia Pacific,Manufacturing,Enterprise Pack,9,50000,450000,James Carter,Event,Closed Lost,0
+TXN-1017,2025-10-15,Sandoval and Sons,Asia Pacific,Healthcare,Enterprise Pack,15,50000,750000,Elena Rodriguez,Website,Qualifying,20
+TXN-1018,2025-09-13,"Patterson, Wise and Morgan",North America,Healthcare,SaaS License Pro,17,1200,20400,David Kim,Event,Qualifying,20
+TXN-1019,2025-09-08,Jones-Cook,North America,Retail,AI Module Addon,2,15000,30000,David Kim,Website,Proposal,50
+TXN-1020,2025-10-04,"Wilkerson, Russell and Elliott",Europe,Retail,SaaS License Pro,3,1200,3600,Elena Rodriguez,Referral,Closed Lost,0
+TXN-1021,2025-11-21,Webb-Howard,Asia Pacific,Healthcare,Enterprise Pack,4,50000,200000,Sarah Miller,Referral,Closed Lost,0
+TXN-1022,2025-09-22,Moreno Group,North America,Manufacturing,Enterprise Pack,16,50000,800000,Sarah Miller,Event,Proposal,50
+TXN-1023,2025-09-18,Lee LLC,Asia Pacific,Manufacturing,Enterprise Pack,7,50000,350000,Elena Rodriguez,Referral,Proposal,50
+TXN-1024,2025-10-10,"Thompson, Doyle and Delacruz",Asia Pacific,Finance,AI Module Addon,18,15000,270000,David Kim,Website,Closed Won,100
+TXN-1025,2025-10-28,Johnson-Davis,Asia Pacific,Retail,Consulting Hours,10,150,1500,Elena Rodriguez,LinkedIn,Discovery,20
+TXN-1026,2025-09-14,Johnston PLC,LATAM,Tech,SaaS License Basic,1,500,500,Elena Rodriguez,LinkedIn,Negotiation,75
+TXN-1027,2025-10-10,"Lee, Walter and Kelly",Europe,Manufacturing,AI Module Addon,16,15000,240000,David Kim,Referral,Qualifying,20
+TXN-1028,2025-08-27,"Pitts, Ward and Harris",LATAM,Retail,Consulting Hours,12,150,1800,Elena Rodriguez,Referral,Discovery,20
+TXN-1029,2025-10-31,"Fox, Robinson and Smith",North America,Finance,Consulting Hours,18,150,2700,David Kim,Website,Discovery,20
+TXN-1030,2025-09-02,"Ramirez, Patterson and Schwartz",North America,Tech,SaaS License Pro,16,1200,19200,Sarah Miller,Website,Negotiation,75
+TXN-1031,2025-09-16,"Miller, Barrett and Washington",North America,Retail,Consulting Hours,12,150,1800,James Carter,LinkedIn,Closed Won,100
+TXN-1032,2025-11-20,Tanner-Fields,Asia Pacific,Healthcare,Consulting Hours,19,150,2850,David Kim,Event,Qualifying,20
+TXN-1033,2025-10-17,"Stevens, Clark and Williams",LATAM,Tech,Consulting Hours,3,150,450,James Carter,LinkedIn,Negotiation,75
+TXN-1034,2025-11-09,Singh LLC,LATAM,Manufacturing,SaaS License Pro,7,1200,8400,Sarah Miller,Referral,Closed Won,100
+TXN-1035,2025-09-21,"Jackson, West and White",Europe,Tech,AI Module Addon,16,15000,240000,James Carter,Cold Call,Closed Lost,0
+TXN-1036,2025-09-19,Ballard-Tate,North America,Manufacturing,SaaS License Basic,17,500,8500,Sarah Miller,Event,Proposal,50
+TXN-1037,2025-09-23,"Wade, Jones and Medina",North America,Finance,SaaS License Pro,13,1200,15600,Elena Rodriguez,Event,Proposal,50
+TXN-1038,2025-09-12,Martinez PLC,LATAM,Manufacturing,SaaS License Basic,3,500,1500,Elena Rodriguez,Referral,Negotiation,75
+TXN-1039,2025-10-29,Garcia-Graham,Europe,Retail,SaaS License Basic,16,500,8000,David Kim,Referral,Closed Lost,0
+TXN-1040,2025-08-30,Huffman-Bridges,LATAM,Tech,SaaS License Basic,19,500,9500,James Carter,Referral,Negotiation,75
+TXN-1041,2025-09-19,"Mcdonald, Oneill and Anderson",Asia Pacific,Finance,SaaS License Pro,13,1200,15600,James Carter,LinkedIn,Negotiation,75
+TXN-1042,2025-11-19,Mathis and Sons,LATAM,Finance,AI Module Addon,1,15000,15000,David Kim,Event,Negotiation,75
+TXN-1043,2025-08-30,"Smith, White and Davis",North America,Healthcare,SaaS License Basic,11,500,5500,David Kim,Cold Call,Negotiation,75
+TXN-1044,2025-08-30,"Jackson, Irwin and Callahan",LATAM,Healthcare,SaaS License Pro,9,1200,10800,David Kim,Cold Call,Closed Won,100
+TXN-1045,2025-10-03,"Kim, Johnston and Conner",North America,Finance,Enterprise Pack,6,50000,300000,Elena Rodriguez,Event,Closed Lost,0
+TXN-1046,2025-09-14,Nguyen Ltd,Europe,Manufacturing,SaaS License Basic,15,500,7500,Sarah Miller,Event,Negotiation,75
+TXN-1047,2025-10-13,Evans PLC,Europe,Finance,AI Module Addon,9,15000,135000,David Kim,LinkedIn,Discovery,20
+TXN-1048,2025-10-16,Schmidt-Cobb,LATAM,Tech,Consulting Hours,12,150,1800,James Carter,LinkedIn,Closed Won,100
+TXN-1049,2025-08-30,English-Johnson,LATAM,Manufacturing,AI Module Addon,20,15000,300000,Sarah Miller,Referral,Closed Lost,0
+TXN-1050,2025-10-17,"Contreras, Myers and Young",Asia Pacific,Manufacturing,SaaS License Pro,3,1200,3600,Elena Rodriguez,Cold Call,Qualifying,20
+TXN-1051,2025-10-24,"Torres, Allen and Melton",North America,Manufacturing,Enterprise Pack,19,50000,950000,James Carter,LinkedIn,Discovery,20
+TXN-1052,2025-11-11,Williams Group,Europe,Manufacturing,SaaS License Basic,19,500,9500,Elena Rodriguez,Website,Negotiation,75
+TXN-1053,2025-10-18,"Schroeder, Scott and Golden",North America,Manufacturing,Enterprise Pack,8,50000,400000,Elena Rodriguez,Website,Negotiation,75
+TXN-1054,2025-09-22,"Mccann, Booker and Madden",Europe,Manufacturing,SaaS License Pro,12,1200,14400,David Kim,Cold Call,Closed Won,100
+TXN-1055,2025-09-21,Graves-Mack,LATAM,Healthcare,Enterprise Pack,17,50000,850000,Elena Rodriguez,LinkedIn,Discovery,20
+TXN-1056,2025-10-01,Fields-Padilla,North America,Healthcare,Enterprise Pack,2,50000,100000,James Carter,Event,Negotiation,75
+TXN-1057,2025-10-18,Murphy PLC,North America,Tech,AI Module Addon,11,15000,165000,Sarah Miller,Event,Negotiation,75
+TXN-1058,2025-09-22,Kennedy-Owen,LATAM,Finance,Enterprise Pack,14,50000,700000,David Kim,Event,Proposal,50
+TXN-1059,2025-10-06,Perez-Jackson,LATAM,Retail,SaaS License Basic,16,500,8000,Elena Rodriguez,LinkedIn,Qualifying,20
+TXN-1060,2025-10-31,Perry Inc,Europe,Healthcare,Consulting Hours,9,150,1350,James Carter,LinkedIn,Proposal,50
+TXN-1061,2025-10-22,"Bailey, Ramirez and Rodriguez",LATAM,Healthcare,Consulting Hours,14,150,2100,Sarah Miller,LinkedIn,Closed Won,100
+TXN-1062,2025-10-02,Wong-Smith,Europe,Retail,Consulting Hours,9,150,1350,David Kim,Cold Call,Closed Lost,0
+TXN-1063,2025-09-12,"Rice, Wyatt and Rodriguez",Europe,Finance,SaaS License Basic,5,500,2500,David Kim,LinkedIn,Closed Won,100
+TXN-1064,2025-11-19,Wagner Inc,Europe,Finance,SaaS License Pro,19,1200,22800,James Carter,Cold Call,Closed Won,100
+TXN-1065,2025-09-30,"Mercado, Shaw and Horn",Europe,Healthcare,SaaS License Pro,4,1200,4800,Elena Rodriguez,Cold Call,Closed Won,100
+TXN-1066,2025-09-10,Hill-Snyder,Asia Pacific,Tech,Enterprise Pack,16,50000,800000,Elena Rodriguez,Website,Closed Won,100
+TXN-1067,2025-10-19,Young-Beck,Asia Pacific,Healthcare,AI Module Addon,20,15000,300000,James Carter,Website,Proposal,50
+TXN-1068,2025-09-04,"Herrera, Reynolds and Hunter",LATAM,Tech,SaaS License Basic,12,500,6000,David Kim,Website,Closed Won,100
+TXN-1069,2025-09-28,Bryan Ltd,Asia Pacific,Tech,AI Module Addon,14,15000,210000,Elena Rodriguez,Referral,Closed Lost,0
+TXN-1070,2025-10-06,Jones-Thornton,LATAM,Finance,SaaS License Pro,19,1200,22800,Sarah Miller,Referral,Closed Lost,0
+TXN-1071,2025-09-09,Hoffman-Roy,North America,Tech,Enterprise Pack,12,50000,600000,Elena Rodriguez,LinkedIn,Negotiation,75
+TXN-1072,2025-10-21,Garcia-Smith,LATAM,Manufacturing,AI Module Addon,16,15000,240000,David Kim,LinkedIn,Proposal,50
+TXN-1073,2025-09-13,"Beck, Deleon and Reilly",North America,Finance,AI Module Addon,3,15000,45000,Sarah Miller,Website,Proposal,50
+TXN-1074,2025-09-14,Stewart Ltd,Asia Pacific,Tech,SaaS License Basic,12,500,6000,David Kim,Referral,Closed Won,100
+TXN-1075,2025-10-09,"Wolfe, Fitzpatrick and Morgan",North America,Manufacturing,AI Module Addon,5,15000,75000,Elena Rodriguez,Cold Call,Discovery,20
+TXN-1076,2025-11-07,Mueller-Jarvis,North America,Healthcare,Enterprise Pack,2,50000,100000,David Kim,Cold Call,Qualifying,20
+TXN-1077,2025-11-10,"Wilson, Martin and Miller",Asia Pacific,Manufacturing,SaaS License Pro,6,1200,7200,Elena Rodriguez,Website,Negotiation,75
+TXN-1078,2025-10-27,Copeland LLC,Asia Pacific,Manufacturing,AI Module Addon,15,15000,225000,Elena Rodriguez,LinkedIn,Closed Won,100
+TXN-1079,2025-11-21,Taylor-Williams,North America,Healthcare,SaaS License Basic,5,500,2500,David Kim,Event,Qualifying,20
+TXN-1080,2025-09-18,Taylor-Lee,Europe,Tech,SaaS License Pro,5,1200,6000,Elena Rodriguez,Referral,Proposal,50
+TXN-1081,2025-10-30,"Alexander, Briggs and Hughes",North America,Healthcare,SaaS License Pro,18,1200,21600,James Carter,LinkedIn,Proposal,50
+TXN-1082,2025-10-14,"Kaufman, Macdonald and Bell",LATAM,Tech,Consulting Hours,10,150,1500,Sarah Miller,Cold Call,Proposal,50
+TXN-1083,2025-09-15,"Reed, Horne and Perez",Asia Pacific,Manufacturing,SaaS License Pro,11,1200,13200,Sarah Miller,Referral,Proposal,50
+TXN-1084,2025-08-25,"Mccarthy, Jones and Green",Europe,Finance,AI Module Addon,20,15000,300000,James Carter,Website,Qualifying,20
+TXN-1085,2025-09-25,Webb LLC,LATAM,Retail,AI Module Addon,17,15000,255000,David Kim,LinkedIn,Negotiation,75
+TXN-1086,2025-09-12,Brooks-Kane,LATAM,Healthcare,Consulting Hours,10,150,1500,James Carter,Event,Closed Won,100
+TXN-1087,2025-10-15,Richardson Group,Europe,Finance,Enterprise Pack,10,50000,500000,David Kim,Referral,Qualifying,20
+TXN-1088,2025-11-02,"Goodwin, Fisher and Johnson",Asia Pacific,Healthcare,Enterprise Pack,19,50000,950000,David Kim,Referral,Closed Won,100
+TXN-1089,2025-11-02,Lee-Thompson,Europe,Healthcare,SaaS License Basic,6,500,3000,David Kim,LinkedIn,Closed Lost,0
+TXN-1090,2025-09-20,Ellis-Morales,LATAM,Finance,AI Module Addon,18,15000,270000,Elena Rodriguez,Event,Closed Won,100
+TXN-1091,2025-10-11,Davis and Sons,Europe,Tech,SaaS License Pro,2,1200,2400,Sarah Miller,Event,Discovery,20
+TXN-1092,2025-09-07,Bates Group,LATAM,Healthcare,Consulting Hours,19,150,2850,David Kim,Event,Discovery,20
+TXN-1093,2025-10-21,Walker Inc,North America,Retail,Consulting Hours,14,150,2100,David Kim,Website,Discovery,20
+TXN-1094,2025-09-09,"Mccormick, Steele and Stewart",North America,Tech,Enterprise Pack,18,50000,900000,David Kim,LinkedIn,Qualifying,20
+TXN-1095,2025-11-16,"Wilson, Johnson and Gonzalez",North America,Finance,Enterprise Pack,15,50000,750000,Sarah Miller,LinkedIn,Qualifying,20
+TXN-1096,2025-11-09,Anderson PLC,Europe,Tech,SaaS License Pro,19,1200,22800,Sarah Miller,Event,Closed Won,100
+TXN-1097,2025-11-14,Paul-Brown,Europe,Healthcare,Consulting Hours,3,150,450,James Carter,Referral,Discovery,20
+TXN-1098,2025-11-19,"Flores, Schneider and Rogers",Europe,Healthcare,AI Module Addon,19,15000,285000,James Carter,Cold Call,Closed Won,100
+TXN-1099,2025-11-14,Jackson Inc,North America,Manufacturing,SaaS License Pro,3,1200,3600,James Carter,Referral,Discovery,20
+TXN-1100,2025-10-15,Orr Inc,Europe,Healthcare,SaaS License Basic,19,500,9500,Elena Rodriguez,LinkedIn,Proposal,50
+TXN-1101,2025-09-23,"Velasquez, Melton and Lucas",North America,Healthcare,SaaS License Basic,19,500,9500,James Carter,LinkedIn,Closed Lost,0
+TXN-1102,2025-08-30,Kelley and Sons,LATAM,Finance,SaaS License Basic,11,500,5500,Elena Rodriguez,Cold Call,Proposal,50
+TXN-1103,2025-11-04,Kim Group,Europe,Tech,SaaS License Basic,16,500,8000,Sarah Miller,Event,Closed Won,100
+TXN-1104,2025-09-16,Frey-Best,Europe,Healthcare,SaaS License Basic,12,500,6000,Sarah Miller,Website,Proposal,50
+TXN-1105,2025-11-17,Rodriguez-Evans,North America,Retail,SaaS License Pro,7,1200,8400,Elena Rodriguez,Website,Closed Won,100
+TXN-1106,2025-11-04,Sandoval-Wright,LATAM,Finance,SaaS License Basic,1,500,500,Elena Rodriguez,Event,Closed Won,100
+TXN-1107,2025-11-13,Jackson Ltd,Asia Pacific,Manufacturing,SaaS License Basic,14,500,7000,David Kim,Website,Closed Lost,0
+TXN-1108,2025-10-10,Smith and Sons,Asia Pacific,Finance,Enterprise Pack,5,50000,250000,Sarah Miller,Referral,Closed Won,100
+TXN-1109,2025-09-18,"Cummings, Diaz and Morgan",LATAM,Tech,Consulting Hours,17,150,2550,Elena Rodriguez,LinkedIn,Qualifying,20
+TXN-1110,2025-10-30,Lang-Jones,Europe,Tech,Enterprise Pack,17,50000,850000,David Kim,LinkedIn,Proposal,50
+TXN-1111,2025-10-01,Morgan-Morgan,Asia Pacific,Healthcare,SaaS License Basic,5,500,2500,David Kim,Website,Closed Won,100
+TXN-1112,2025-10-19,Rogers LLC,LATAM,Healthcare,Enterprise Pack,3,50000,150000,Elena Rodriguez,Website,Closed Won,100
+TXN-1113,2025-11-12,Roberts Group,North America,Finance,AI Module Addon,13,15000,195000,Sarah Miller,Referral,Qualifying,20
+TXN-1114,2025-08-27,"Hudson, Velez and Vasquez",LATAM,Healthcare,SaaS License Pro,1,1200,1200,James Carter,Cold Call,Closed Lost,0
+TXN-1115,2025-08-29,"Harris, Ruiz and Murphy",North America,Tech,SaaS License Pro,17,1200,20400,James Carter,Website,Closed Won,100
+TXN-1116,2025-10-23,"Watson, Bailey and Hernandez",Europe,Manufacturing,AI Module Addon,1,15000,15000,James Carter,Website,Negotiation,75
+TXN-1117,2025-08-29,Hodge-Wallace,Asia Pacific,Retail,AI Module Addon,17,15000,255000,James Carter,Event,Negotiation,75
+TXN-1118,2025-11-19,Davidson LLC,Asia Pacific,Manufacturing,Consulting Hours,2,150,300,James Carter,LinkedIn,Qualifying,20
+TXN-1119,2025-09-02,Blackwell-Ferrell,LATAM,Healthcare,Enterprise Pack,13,50000,650000,Sarah Miller,Event,Discovery,20
+TXN-1120,2025-10-08,Lopez PLC,North America,Manufacturing,AI Module Addon,15,15000,225000,Elena Rodriguez,Cold Call,Negotiation,75
+TXN-1121,2025-09-25,Soto-Haynes,North America,Retail,SaaS License Basic,3,500,1500,James Carter,Event,Negotiation,75
+TXN-1122,2025-09-16,"Anderson, Walker and Wright",Europe,Tech,Enterprise Pack,14,50000,700000,James Carter,Event,Closed Lost,0
+TXN-1123,2025-09-24,Sellers-Martinez,LATAM,Finance,Consulting Hours,16,150,2400,Elena Rodriguez,Referral,Qualifying,20
+TXN-1124,2025-10-15,Durham-Sanchez,LATAM,Manufacturing,Enterprise Pack,18,50000,900000,Sarah Miller,Event,Negotiation,75
+TXN-1125,2025-10-24,Carter-Johnson,Asia Pacific,Manufacturing,Consulting Hours,5,150,750,James Carter,Referral,Qualifying,20
+TXN-1126,2025-09-26,"Bell, Martinez and Ferguson",Europe,Finance,Enterprise Pack,5,50000,250000,James Carter,Event,Closed Lost,0
+TXN-1127,2025-11-18,Hoffman Inc,LATAM,Retail,SaaS License Pro,17,1200,20400,David Kim,Referral,Closed Lost,0
+TXN-1128,2025-11-10,Adams Ltd,Asia Pacific,Tech,AI Module Addon,3,15000,45000,Sarah Miller,LinkedIn,Negotiation,75
+TXN-1129,2025-10-04,Ortiz and Sons,Europe,Manufacturing,Consulting Hours,2,150,300,David Kim,Cold Call,Discovery,20
+TXN-1130,2025-08-29,"Dunn, Potts and Wilkinson",Asia Pacific,Healthcare,SaaS License Basic,20,500,10000,Elena Rodriguez,Cold Call,Negotiation,75
+TXN-1131,2025-09-06,Miller and Sons,Europe,Tech,AI Module Addon,12,15000,180000,Sarah Miller,Cold Call,Closed Lost,0
+TXN-1132,2025-09-16,Kane-Scott,North America,Retail,AI Module Addon,9,15000,135000,Sarah Miller,Referral,Discovery,20
+TXN-1133,2025-09-14,Gordon-Dodson,LATAM,Finance,Consulting Hours,7,150,1050,Sarah Miller,Cold Call,Proposal,50
+TXN-1134,2025-09-21,"Martinez, Moon and Murphy",Asia Pacific,Healthcare,SaaS License Basic,3,500,1500,Sarah Miller,Referral,Closed Won,100
+TXN-1135,2025-10-06,Robles PLC,Asia Pacific,Finance,SaaS License Basic,10,500,5000,David Kim,Event,Qualifying,20
+TXN-1136,2025-08-28,"Hudson, Moore and Martinez",Asia Pacific,Healthcare,SaaS License Basic,13,500,6500,Sarah Miller,Referral,Discovery,20
+TXN-1137,2025-09-29,"Curtis, Bailey and Richardson",North America,Tech,SaaS License Pro,13,1200,15600,Elena Rodriguez,Cold Call,Closed Won,100
+TXN-1138,2025-09-04,Rodriguez Ltd,LATAM,Healthcare,AI Module Addon,13,15000,195000,Elena Rodriguez,Referral,Discovery,20
+TXN-1139,2025-11-13,Robinson-Smith,Europe,Finance,Enterprise Pack,11,50000,550000,David Kim,LinkedIn,Closed Lost,0
+TXN-1140,2025-09-04,Gonzalez-Davis,LATAM,Finance,Enterprise Pack,16,50000,800000,James Carter,Event,Closed Lost,0
+TXN-1141,2025-10-10,"Barry, Evans and Smith",Asia Pacific,Finance,Enterprise Pack,2,50000,100000,James Carter,Event,Closed Lost,0
+TXN-1142,2025-09-17,Campos LLC,LATAM,Manufacturing,Enterprise Pack,15,50000,750000,Sarah Miller,Website,Discovery,20
+TXN-1143,2025-11-04,Jensen-Wallace,LATAM,Finance,Enterprise Pack,4,50000,200000,Sarah Miller,Event,Closed Lost,0
+TXN-1144,2025-09-03,Lopez Inc,North America,Retail,SaaS License Pro,5,1200,6000,Elena Rodriguez,Cold Call,Negotiation,75
+TXN-1145,2025-10-15,Smith Group,Europe,Finance,SaaS License Pro,6,1200,7200,Sarah Miller,Event,Discovery,20
+TXN-1146,2025-11-07,"Torres, Mcclain and Archer",Europe,Finance,SaaS License Basic,14,500,7000,David Kim,LinkedIn,Qualifying,20
+TXN-1147,2025-09-04,"Lewis, Vasquez and White",Europe,Retail,Enterprise Pack,14,50000,700000,James Carter,LinkedIn,Negotiation,75
+TXN-1148,2025-09-14,Taylor-Hodges,Asia Pacific,Manufacturing,SaaS License Basic,7,500,3500,James Carter,LinkedIn,Proposal,50
+TXN-1149,2025-10-01,"King, Walker and Allen",Asia Pacific,Manufacturing,Enterprise Pack,18,50000,900000,David Kim,Referral,Proposal,50
+TXN-1150,2025-11-13,"Carson, Rivas and Beck",Asia Pacific,Tech,AI Module Addon,2,15000,30000,Elena Rodriguez,Event,Negotiation,75
+TXN-1151,2025-11-17,Stewart-Williams,Asia Pacific,Finance,Consulting Hours,12,150,1800,Sarah Miller,LinkedIn,Closed Lost,0
+TXN-1152,2025-11-21,Turner and Sons,North America,Finance,Enterprise Pack,7,50000,350000,Elena Rodriguez,Referral,Closed Won,100
+TXN-1153,2025-10-27,Smith PLC,Europe,Retail,SaaS License Basic,9,500,4500,David Kim,LinkedIn,Closed Won,100
+TXN-1154,2025-09-06,Hall Group,Asia Pacific,Healthcare,AI Module Addon,4,15000,60000,James Carter,LinkedIn,Closed Won,100
+TXN-1155,2025-10-29,Stevenson-Peterson,Asia Pacific,Tech,SaaS License Pro,8,1200,9600,Sarah Miller,Website,Negotiation,75
+TXN-1156,2025-09-09,"Riley, Cruz and George",Europe,Tech,SaaS License Pro,7,1200,8400,Sarah Miller,Referral,Qualifying,20
+TXN-1157,2025-08-31,"Carter, West and Jackson",Asia Pacific,Tech,Consulting Hours,4,150,600,James Carter,Referral,Discovery,20
+TXN-1158,2025-09-08,"Barajas, Bennett and Brown",LATAM,Tech,SaaS License Pro,16,1200,19200,James Carter,Website,Closed Won,100
+TXN-1159,2025-10-31,Bowers Inc,LATAM,Tech,SaaS License Basic,18,500,9000,Elena Rodriguez,Cold Call,Negotiation,75
+TXN-1160,2025-10-31,Rodriguez Inc,North America,Retail,Consulting Hours,13,150,1950,Elena Rodriguez,LinkedIn,Qualifying,20
+TXN-1161,2025-10-08,"Smith, Lucas and Brooks",Europe,Healthcare,Consulting Hours,8,150,1200,Elena Rodriguez,Website,Negotiation,75
+TXN-1162,2025-10-17,Brown-Russell,North America,Finance,Consulting Hours,3,150,450,Sarah Miller,Website,Negotiation,75
+TXN-1163,2025-09-18,Pruitt-Frank,Asia Pacific,Healthcare,Consulting Hours,9,150,1350,Sarah Miller,Cold Call,Discovery,20
+TXN-1164,2025-10-08,Curry-Watkins,North America,Manufacturing,SaaS License Basic,13,500,6500,David Kim,Referral,Closed Won,100
+TXN-1165,2025-10-15,Joseph-Lewis,Asia Pacific,Healthcare,Enterprise Pack,18,50000,900000,David Kim,LinkedIn,Qualifying,20
+TXN-1166,2025-09-07,Hendrix LLC,North America,Retail,Consulting Hours,8,150,1200,Elena Rodriguez,Referral,Discovery,20
+TXN-1167,2025-10-19,Wong-Potts,Europe,Healthcare,AI Module Addon,11,15000,165000,James Carter,Referral,Qualifying,20
+TXN-1168,2025-11-06,"Johnson, Gonzalez and Tyler",Asia Pacific,Tech,SaaS License Pro,13,1200,15600,James Carter,Event,Closed Lost,0
+TXN-1169,2025-11-07,"Herrera, Rogers and Rodriguez",Europe,Tech,SaaS License Pro,14,1200,16800,James Carter,Referral,Closed Lost,0
+TXN-1170,2025-11-16,"Gordon, Buchanan and Cardenas",Asia Pacific,Retail,Consulting Hours,16,150,2400,James Carter,Cold Call,Qualifying,20
+TXN-1171,2025-11-07,Day-Jones,Europe,Tech,Consulting Hours,7,150,1050,David Kim,Referral,Negotiation,75
+TXN-1172,2025-09-05,"Riley, Ramirez and Foster",Asia Pacific,Retail,Enterprise Pack,7,50000,350000,David Kim,Referral,Closed Won,100
+TXN-1173,2025-11-10,Green Inc,LATAM,Retail,SaaS License Pro,14,1200,16800,Sarah Miller,Referral,Discovery,20
+TXN-1174,2025-11-16,Ballard PLC,Asia Pacific,Retail,Enterprise Pack,6,50000,300000,Sarah Miller,LinkedIn,Closed Won,100
+TXN-1175,2025-09-23,Pearson and Sons,Asia Pacific,Retail,AI Module Addon,16,15000,240000,James Carter,LinkedIn,Closed Won,100
+TXN-1176,2025-09-02,Davis PLC,LATAM,Finance,Enterprise Pack,13,50000,650000,Elena Rodriguez,Event,Closed Won,100
+TXN-1177,2025-09-13,"White, Hampton and Murphy",Asia Pacific,Tech,SaaS License Basic,8,500,4000,Elena Rodriguez,Website,Qualifying,20
+TXN-1178,2025-08-27,Jackson-Brown,Europe,Manufacturing,SaaS License Pro,5,1200,6000,James Carter,Website,Closed Lost,0
+TXN-1179,2025-10-27,Valenzuela-Braun,LATAM,Manufacturing,SaaS License Pro,1,1200,1200,James Carter,Event,Discovery,20
+TXN-1180,2025-10-13,Wiggins-Adams,LATAM,Manufacturing,SaaS License Basic,10,500,5000,Sarah Miller,LinkedIn,Closed Won,100
+TXN-1181,2025-09-21,"Hunter, Freeman and Anderson",Asia Pacific,Finance,AI Module Addon,17,15000,255000,Sarah Miller,LinkedIn,Negotiation,75
+TXN-1182,2025-08-30,Coleman-Henderson,North America,Finance,AI Module Addon,3,15000,45000,David Kim,Cold Call,Closed Lost,0
+TXN-1183,2025-11-12,"Blanchard, Macias and Brown",LATAM,Tech,AI Module Addon,3,15000,45000,Elena Rodriguez,Referral,Proposal,50
+TXN-1184,2025-09-21,"George, Garcia and Moore",North America,Tech,Consulting Hours,2,150,300,Sarah Miller,Event,Qualifying,20
+TXN-1185,2025-11-13,Carter and Sons,Europe,Manufacturing,SaaS License Basic,14,500,7000,Elena Rodriguez,Website,Closed Won,100
+TXN-1186,2025-09-20,"Baker, Pruitt and Singleton",Asia Pacific,Retail,Enterprise Pack,16,50000,800000,David Kim,Cold Call,Closed Won,100
+TXN-1187,2025-10-01,Campbell and Sons,Asia Pacific,Manufacturing,SaaS License Basic,1,500,500,David Kim,Referral,Discovery,20
+TXN-1188,2025-09-28,May Ltd,North America,Healthcare,Consulting Hours,5,150,750,David Kim,LinkedIn,Negotiation,75
+TXN-1189,2025-10-15,Hancock-Hatfield,North America,Finance,Consulting Hours,13,150,1950,James Carter,Website,Discovery,20
+TXN-1190,2025-10-15,Webb-Mckee,Asia Pacific,Tech,Enterprise Pack,11,50000,550000,David Kim,Referral,Closed Won,100
+TXN-1191,2025-10-30,"Morgan, Sutton and Martin",Europe,Tech,Consulting Hours,20,150,3000,James Carter,Referral,Qualifying,20
+TXN-1192,2025-08-29,Smith Ltd,Asia Pacific,Manufacturing,SaaS License Basic,4,500,2000,David Kim,Cold Call,Closed Won,100
+TXN-1193,2025-11-10,Rios-Smith,LATAM,Healthcare,AI Module Addon,16,15000,240000,David Kim,Event,Discovery,20
+TXN-1194,2025-10-11,Ortiz-Green,LATAM,Tech,SaaS License Basic,11,500,5500,James Carter,Referral,Closed Lost,0
+TXN-1195,2025-09-23,"Knox, Manning and Walker",North America,Manufacturing,Enterprise Pack,13,50000,650000,James Carter,LinkedIn,Closed Lost,0
+TXN-1196,2025-08-29,Ramsey-Harris,Europe,Tech,Consulting Hours,13,150,1950,David Kim,LinkedIn,Negotiation,75
+TXN-1197,2025-10-09,Allen-Graham,LATAM,Retail,SaaS License Basic,16,500,8000,James Carter,Referral,Qualifying,20
+TXN-1198,2025-10-03,Cruz Ltd,Europe,Tech,AI Module Addon,8,15000,120000,Elena Rodriguez,Event,Proposal,50
+TXN-1199,2025-11-18,Wilkinson LLC,North America,Finance,Enterprise Pack,19,50000,950000,David Kim,Website,Qualifying,20
+TXN-1200,2025-11-20,"Cook, Ramirez and Thompson",Asia Pacific,Retail,Consulting Hours,3,150,450,David Kim,LinkedIn,Discovery,20
+TXN-1201,2025-08-25,"Jackson, Graham and Cole",LATAM,Finance,SaaS License Pro,2,1200,2400,Elena Rodriguez,Event,Proposal,50
+TXN-1202,2025-11-09,Barnes-Taylor,Europe,Healthcare,AI Module Addon,4,15000,60000,David Kim,Event,Negotiation,75
+TXN-1203,2025-10-18,Cowan-Ramos,North America,Manufacturing,Consulting Hours,1,150,150,David Kim,Event,Negotiation,75
+TXN-1204,2025-09-05,"Ray, Gordon and Wells",Asia Pacific,Healthcare,SaaS License Basic,3,500,1500,Sarah Miller,Website,Discovery,20
+TXN-1205,2025-11-19,Wise Inc,North America,Healthcare,SaaS License Pro,20,1200,24000,James Carter,LinkedIn,Discovery,20
+TXN-1206,2025-11-20,Rivera PLC,LATAM,Retail,Consulting Hours,12,150,1800,Sarah Miller,Event,Closed Lost,0
+TXN-1207,2025-09-19,Nguyen-Floyd,Asia Pacific,Tech,AI Module Addon,4,15000,60000,David Kim,Event,Proposal,50
+TXN-1208,2025-10-29,Cunningham-Hernandez,Asia Pacific,Tech,Enterprise Pack,18,50000,900000,David Kim,Cold Call,Discovery,20
+TXN-1209,2025-11-14,Wilson and Sons,Asia Pacific,Healthcare,AI Module Addon,3,15000,45000,James Carter,Cold Call,Negotiation,75
+TXN-1210,2025-10-07,Taylor-Pierce,North America,Finance,Enterprise Pack,4,50000,200000,Elena Rodriguez,Event,Qualifying,20
+TXN-1211,2025-10-13,Carr-Simpson,Europe,Healthcare,SaaS License Pro,14,1200,16800,Elena Rodriguez,LinkedIn,Closed Won,100
+TXN-1212,2025-10-12,Baker PLC,Asia Pacific,Healthcare,SaaS License Pro,12,1200,14400,Elena Rodriguez,LinkedIn,Negotiation,75
+TXN-1213,2025-10-22,Davis Group,LATAM,Tech,SaaS License Pro,17,1200,20400,Elena Rodriguez,LinkedIn,Discovery,20
+TXN-1214,2025-09-05,Butler-Cooke,Europe,Finance,SaaS License Pro,4,1200,4800,David Kim,Website,Qualifying,20
+TXN-1215,2025-11-18,Stephens Group,Europe,Manufacturing,Enterprise Pack,6,50000,300000,David Kim,Referral,Negotiation,75
+TXN-1216,2025-11-11,Harris and Sons,Asia Pacific,Finance,Consulting Hours,15,150,2250,James Carter,Cold Call,Negotiation,75
+TXN-1217,2025-11-02,Williams Ltd,North America,Healthcare,Consulting Hours,16,150,2400,Sarah Miller,Website,Closed Won,100
+TXN-1218,2025-11-05,"Alvarez, Luna and Mills",North America,Tech,SaaS License Basic,12,500,6000,James Carter,Referral,Proposal,50
+TXN-1219,2025-11-07,Webb-Reynolds,LATAM,Tech,SaaS License Pro,4,1200,4800,Elena Rodriguez,Cold Call,Closed Lost,0
+TXN-1220,2025-09-04,"Fisher, Savage and Fuller",Asia Pacific,Tech,AI Module Addon,15,15000,225000,James Carter,Website,Negotiation,75
+TXN-1221,2025-09-16,Evans-Ritter,Europe,Finance,Enterprise Pack,15,50000,750000,David Kim,Cold Call,Negotiation,75
+TXN-1222,2025-10-29,"Owens, George and Miller",Asia Pacific,Tech,Consulting Hours,8,150,1200,James Carter,Event,Closed Won,100
+TXN-1223,2025-10-27,"Lindsey, George and Roberts",North America,Tech,Consulting Hours,15,150,2250,David Kim,LinkedIn,Discovery,20
+TXN-1224,2025-11-10,Jacobson-Haney,Europe,Retail,Consulting Hours,19,150,2850,David Kim,LinkedIn,Discovery,20
+TXN-1225,2025-10-07,"Holt, Martinez and Maxwell",Asia Pacific,Finance,Consulting Hours,10,150,1500,James Carter,LinkedIn,Negotiation,75
+TXN-1226,2025-10-02,Rivera LLC,Europe,Retail,SaaS License Basic,1,500,500,Sarah Miller,Website,Discovery,20
+TXN-1227,2025-08-26,"Dixon, Barker and Humphrey",Europe,Manufacturing,AI Module Addon,19,15000,285000,James Carter,Cold Call,Proposal,50
+TXN-1228,2025-10-28,"Fischer, Hudson and Stephens",North America,Healthcare,SaaS License Pro,19,1200,22800,David Kim,Cold Call,Closed Lost,0
+TXN-1229,2025-10-13,"Ford, Watts and Harrison",North America,Retail,SaaS License Basic,17,500,8500,James Carter,Referral,Closed Won,100
+TXN-1230,2025-10-19,Lyons and Sons,Asia Pacific,Retail,AI Module Addon,15,15000,225000,James Carter,Referral,Negotiation,75
+TXN-1231,2025-11-09,White Group,LATAM,Finance,SaaS License Basic,9,500,4500,Sarah Miller,Referral,Qualifying,20
+TXN-1232,2025-10-02,Ellis Ltd,North America,Manufacturing,AI Module Addon,2,15000,30000,Sarah Miller,Event,Negotiation,75
+TXN-1233,2025-11-21,Ferguson-Peterson,North America,Retail,SaaS License Pro,8,1200,9600,David Kim,Referral,Discovery,20
+TXN-1234,2025-10-05,Camacho-Ward,Europe,Finance,Consulting Hours,18,150,2700,Elena Rodriguez,Website,Discovery,20
+TXN-1235,2025-10-10,Hampton-Church,Asia Pacific,Manufacturing,SaaS License Basic,2,500,1000,Sarah Miller,Referral,Closed Won,100
+TXN-1236,2025-11-04,"Stark, Wright and Morris",Asia Pacific,Tech,AI Module Addon,1,15000,15000,James Carter,Event,Closed Won,100
+TXN-1237,2025-09-27,"Gray, White and Serrano",Europe,Healthcare,SaaS License Basic,13,500,6500,David Kim,Cold Call,Discovery,20
+TXN-1238,2025-10-12,Hatfield Inc,Europe,Healthcare,Enterprise Pack,13,50000,650000,David Kim,Referral,Closed Won,100
+TXN-1239,2025-09-08,Mcbride-Bradford,LATAM,Finance,SaaS License Basic,17,500,8500,Elena Rodriguez,Cold Call,Proposal,50
+TXN-1240,2025-11-16,Ward-Drake,Asia Pacific,Tech,Consulting Hours,7,150,1050,David Kim,Referral,Closed Won,100
+TXN-1241,2025-10-30,Burton-Cole,Asia Pacific,Finance,Consulting Hours,18,150,2700,David Kim,Referral,Proposal,50
+TXN-1242,2025-09-02,Mann Inc,LATAM,Retail,SaaS License Basic,6,500,3000,James Carter,Cold Call,Qualifying,20
+TXN-1243,2025-08-26,Mcguire PLC,Asia Pacific,Tech,Consulting Hours,17,150,2550,Sarah Miller,Referral,Proposal,50
+TXN-1244,2025-11-08,Green-Anderson,Europe,Manufacturing,Consulting Hours,19,150,2850,Sarah Miller,LinkedIn,Qualifying,20
+TXN-1245,2025-10-21,Hobbs-Lynch,LATAM,Tech,SaaS License Basic,10,500,5000,James Carter,Event,Qualifying,20
+TXN-1246,2025-11-10,"Dixon, Harris and Berry",LATAM,Finance,SaaS License Pro,1,1200,1200,David Kim,Referral,Qualifying,20
+TXN-1247,2025-10-03,Hayes and Sons,Asia Pacific,Healthcare,SaaS License Basic,12,500,6000,Sarah Miller,LinkedIn,Qualifying,20
+TXN-1248,2025-09-13,"Wood, Thomas and Bell",North America,Manufacturing,SaaS License Basic,4,500,2000,Elena Rodriguez,Referral,Closed Won,100
+TXN-1249,2025-10-26,Allen PLC,LATAM,Tech,Consulting Hours,2,150,300,Elena Rodriguez,Cold Call,Closed Lost,0
+TXN-1250,2025-08-25,Cole Inc,LATAM,Tech,AI Module Addon,14,15000,210000,David Kim,LinkedIn,Closed Lost,0
+TXN-1251,2025-11-12,Neal-Washington,Europe,Finance,SaaS License Basic,6,500,3000,David Kim,Cold Call,Proposal,50
+TXN-1252,2025-10-10,"Blevins, Lane and Wilson",Europe,Tech,AI Module Addon,10,15000,150000,David Kim,LinkedIn,Discovery,20
+TXN-1253,2025-10-07,"Graham, Roberts and Gould",North America,Tech,Enterprise Pack,3,50000,150000,Sarah Miller,LinkedIn,Closed Won,100
+TXN-1254,2025-11-19,"Warren, Owens and Clark",North America,Retail,Enterprise Pack,11,50000,550000,Elena Rodriguez,Website,Proposal,50
+TXN-1255,2025-09-05,Morse Group,LATAM,Manufacturing,SaaS License Pro,17,1200,20400,David Kim,Event,Qualifying,20
+TXN-1256,2025-09-04,Nichols-Leach,Asia Pacific,Retail,AI Module Addon,10,15000,150000,David Kim,Event,Closed Won,100
+TXN-1257,2025-09-26,Weaver and Sons,LATAM,Retail,Consulting Hours,7,150,1050,James Carter,Cold Call,Negotiation,75
+TXN-1258,2025-11-11,"Thomas, Cantrell and Page",LATAM,Healthcare,Enterprise Pack,16,50000,800000,James Carter,Event,Proposal,50
+TXN-1259,2025-10-31,Wagner and Sons,Europe,Tech,Enterprise Pack,7,50000,350000,Sarah Miller,Referral,Negotiation,75
+TXN-1260,2025-11-10,Smith-Wheeler,LATAM,Healthcare,Consulting Hours,17,150,2550,Elena Rodriguez,Event,Closed Won,100
+TXN-1261,2025-09-18,"Fleming, Bennett and Crane",LATAM,Retail,SaaS License Basic,10,500,5000,Sarah Miller,Cold Call,Closed Lost,0
+TXN-1262,2025-09-18,"Vaughn, Marshall and Terrell",Europe,Finance,AI Module Addon,20,15000,300000,Elena Rodriguez,LinkedIn,Proposal,50
+TXN-1263,2025-09-28,Santana PLC,North America,Tech,AI Module Addon,1,15000,15000,Sarah Miller,Referral,Qualifying,20
+TXN-1264,2025-11-15,"Richardson, Garrison and Guerrero",Europe,Healthcare,Consulting Hours,6,150,900,David Kim,Website,Closed Lost,0
+TXN-1265,2025-08-27,"Jacobs, Garza and Barnes",North America,Manufacturing,SaaS License Pro,12,1200,14400,David Kim,Event,Proposal,50
+TXN-1266,2025-09-10,Lee-Carlson,Asia Pacific,Tech,SaaS License Pro,3,1200,3600,Elena Rodriguez,Cold Call,Proposal,50
+TXN-1267,2025-09-02,Sawyer-Fields,North America,Tech,SaaS License Basic,8,500,4000,James Carter,Cold Call,Closed Lost,0
+TXN-1268,2025-10-05,"Zavala, Owens and Jacobson",Asia Pacific,Tech,Enterprise Pack,14,50000,700000,Elena Rodriguez,Event,Proposal,50
+TXN-1269,2025-10-02,"Moore, Cole and Adams",Europe,Healthcare,AI Module Addon,6,15000,90000,Elena Rodriguez,Cold Call,Discovery,20
+TXN-1270,2025-10-28,Kelley-Franco,Europe,Tech,Consulting Hours,20,150,3000,David Kim,LinkedIn,Proposal,50
+TXN-1271,2025-11-17,Howard Inc,Europe,Retail,AI Module Addon,9,15000,135000,James Carter,LinkedIn,Closed Lost,0
+TXN-1272,2025-09-02,Rodriguez Ltd,LATAM,Finance,Enterprise Pack,15,50000,750000,David Kim,Event,Discovery,20
+TXN-1273,2025-11-10,Herring-Banks,North America,Finance,SaaS License Pro,17,1200,20400,James Carter,Website,Closed Won,100
+TXN-1274,2025-10-30,Juarez-Perez,LATAM,Tech,SaaS License Pro,8,1200,9600,James Carter,Website,Qualifying,20
+TXN-1275,2025-09-06,"Patrick, Robinson and Smith",LATAM,Finance,SaaS License Pro,16,1200,19200,Sarah Miller,Cold Call,Discovery,20
+TXN-1276,2025-10-07,Hunt Group,LATAM,Manufacturing,AI Module Addon,9,15000,135000,Elena Rodriguez,Event,Negotiation,75
+TXN-1277,2025-08-28,Miller-Price,Europe,Retail,Consulting Hours,5,150,750,Elena Rodriguez,LinkedIn,Proposal,50
+TXN-1278,2025-09-20,"Collins, Wilson and Mcdaniel",LATAM,Finance,AI Module Addon,10,15000,150000,James Carter,Website,Negotiation,75
+TXN-1279,2025-11-09,Cook LLC,LATAM,Healthcare,SaaS License Pro,13,1200,15600,James Carter,LinkedIn,Qualifying,20
+TXN-1280,2025-10-10,"Morales, Anderson and Henderson",Europe,Manufacturing,Consulting Hours,3,150,450,Elena Rodriguez,Referral,Proposal,50
+TXN-1281,2025-09-04,Merritt LLC,LATAM,Finance,AI Module Addon,18,15000,270000,Sarah Miller,Referral,Qualifying,20
+TXN-1282,2025-09-22,"Bridges, Franco and Walsh",Europe,Manufacturing,SaaS License Pro,16,1200,19200,James Carter,Referral,Qualifying,20
+TXN-1283,2025-08-30,Ortiz-Howard,Asia Pacific,Manufacturing,Consulting Hours,19,150,2850,Elena Rodriguez,LinkedIn,Qualifying,20
+TXN-1284,2025-08-24,Ortiz Inc,Asia Pacific,Manufacturing,SaaS License Pro,9,1200,10800,Elena Rodriguez,Referral,Discovery,20
+TXN-1285,2025-11-16,Velasquez-Johnson,Europe,Healthcare,Consulting Hours,5,150,750,James Carter,Cold Call,Qualifying,20
+TXN-1286,2025-08-30,Mclean Inc,Asia Pacific,Retail,AI Module Addon,12,15000,180000,Sarah Miller,Website,Discovery,20
+TXN-1287,2025-10-08,Maxwell Inc,LATAM,Manufacturing,Enterprise Pack,6,50000,300000,Elena Rodriguez,Event,Qualifying,20
+TXN-1288,2025-11-02,Flores-Young,LATAM,Healthcare,SaaS License Pro,1,1200,1200,James Carter,Event,Negotiation,75
+TXN-1289,2025-09-10,Bray-Webb,LATAM,Tech,SaaS License Basic,10,500,5000,Elena Rodriguez,Referral,Negotiation,75
+TXN-1290,2025-11-12,Rasmussen PLC,LATAM,Healthcare,SaaS License Basic,6,500,3000,Sarah Miller,Website,Qualifying,20
+TXN-1291,2025-08-25,Jones-Chase,Europe,Healthcare,Consulting Hours,1,150,150,Sarah Miller,LinkedIn,Closed Lost,0
+TXN-1292,2025-10-02,Garcia-Tucker,North America,Finance,SaaS License Basic,3,500,1500,James Carter,Website,Negotiation,75
+TXN-1293,2025-11-03,Powell Group,Asia Pacific,Retail,SaaS License Pro,10,1200,12000,Sarah Miller,Cold Call,Negotiation,75
+TXN-1294,2025-10-04,Sims and Sons,North America,Finance,AI Module Addon,11,15000,165000,James Carter,Event,Discovery,20
+TXN-1295,2025-11-20,Fowler LLC,Europe,Healthcare,Consulting Hours,3,150,450,David Kim,Referral,Closed Lost,0
+TXN-1296,2025-10-20,"Stewart, Roth and Mayer",Asia Pacific,Healthcare,SaaS License Basic,19,500,9500,Elena Rodriguez,Event,Qualifying,20
+TXN-1297,2025-11-20,Elliott Ltd,Europe,Retail,Enterprise Pack,2,50000,100000,Elena Rodriguez,LinkedIn,Qualifying,20
+TXN-1298,2025-10-19,Hicks LLC,LATAM,Retail,SaaS License Basic,15,500,7500,David Kim,Cold Call,Discovery,20
+TXN-1299,2025-09-08,"Hodge, Waters and Carter",Asia Pacific,Retail,Consulting Hours,19,150,2850,David Kim,Website,Negotiation,75
+TXN-1300,2025-09-15,Moore LLC,Asia Pacific,Manufacturing,SaaS License Pro,11,1200,13200,David Kim,Event,Qualifying,20
+TXN-1301,2025-09-26,Chen PLC,LATAM,Manufacturing,Consulting Hours,16,150,2400,Elena Rodriguez,Referral,Closed Lost,0
+TXN-1302,2025-08-31,Lang-Day,LATAM,Healthcare,Enterprise Pack,5,50000,250000,Sarah Miller,LinkedIn,Discovery,20
+TXN-1303,2025-10-18,Hernandez-Klein,Europe,Retail,AI Module Addon,2,15000,30000,Sarah Miller,LinkedIn,Discovery,20
+TXN-1304,2025-11-18,Brock-Williams,LATAM,Finance,Consulting Hours,20,150,3000,Sarah Miller,Cold Call,Proposal,50
+TXN-1305,2025-10-28,Browning-Holloway,North America,Healthcare,SaaS License Pro,16,1200,19200,James Carter,Event,Closed Lost,0
+TXN-1306,2025-10-20,Ortega-Owens,North America,Manufacturing,Consulting Hours,12,150,1800,David Kim,Website,Closed Won,100
+TXN-1307,2025-10-20,Nolan-Young,LATAM,Retail,SaaS License Pro,8,1200,9600,Elena Rodriguez,Event,Closed Lost,0
+TXN-1308,2025-10-12,Perry LLC,Europe,Finance,SaaS License Basic,8,500,4000,David Kim,Website,Discovery,20
+TXN-1309,2025-11-16,Turner-Martin,North America,Manufacturing,Consulting Hours,17,150,2550,Sarah Miller,LinkedIn,Closed Lost,0
+TXN-1310,2025-11-13,Hill PLC,Europe,Manufacturing,SaaS License Pro,11,1200,13200,Sarah Miller,Website,Proposal,50
+TXN-1311,2025-09-17,Jones LLC,North America,Tech,Consulting Hours,19,150,2850,James Carter,Cold Call,Closed Lost,0
+TXN-1312,2025-11-06,White-Johnson,Europe,Manufacturing,SaaS License Pro,5,1200,6000,Elena Rodriguez,Cold Call,Discovery,20
+TXN-1313,2025-10-16,Lutz PLC,North America,Retail,Enterprise Pack,19,50000,950000,Sarah Miller,Website,Negotiation,75
+TXN-1314,2025-11-13,Vasquez and Sons,Asia Pacific,Retail,SaaS License Basic,20,500,10000,David Kim,Cold Call,Qualifying,20
+TXN-1315,2025-09-13,"Clark, Foster and Chan",North America,Healthcare,SaaS License Pro,3,1200,3600,James Carter,LinkedIn,Closed Lost,0
+TXN-1316,2025-11-12,Brown-Gibson,Europe,Finance,Consulting Hours,15,150,2250,David Kim,Event,Closed Won,100
+TXN-1317,2025-11-17,Stone-Webb,LATAM,Finance,Consulting Hours,4,150,600,Elena Rodriguez,Referral,Closed Lost,0
+TXN-1318,2025-09-10,Mueller and Sons,North America,Finance,Enterprise Pack,6,50000,300000,James Carter,Website,Closed Won,100
+TXN-1319,2025-11-16,"Brown, Dominguez and Barton",North America,Healthcare,Enterprise Pack,18,50000,900000,David Kim,LinkedIn,Closed Lost,0
+TXN-1320,2025-09-21,Boyd PLC,Europe,Healthcare,AI Module Addon,1,15000,15000,Sarah Miller,LinkedIn,Discovery,20
+TXN-1321,2025-10-06,Murray Group,LATAM,Retail,AI Module Addon,4,15000,60000,James Carter,Cold Call,Closed Lost,0
+TXN-1322,2025-08-31,Boyd-Hill,North America,Healthcare,Enterprise Pack,18,50000,900000,Elena Rodriguez,Referral,Negotiation,75
+TXN-1323,2025-09-19,Arellano-Taylor,Europe,Retail,SaaS License Pro,10,1200,12000,James Carter,Referral,Proposal,50
+TXN-1324,2025-08-29,Wheeler-Butler,Asia Pacific,Manufacturing,SaaS License Basic,16,500,8000,Elena Rodriguez,Referral,Qualifying,20
+TXN-1325,2025-09-30,Montoya-Brooks,LATAM,Tech,Enterprise Pack,16,50000,800000,David Kim,Referral,Closed Won,100
+TXN-1326,2025-09-12,"Moon, Weaver and Dennis",Asia Pacific,Finance,SaaS License Pro,19,1200,22800,Sarah Miller,Website,Proposal,50
+TXN-1327,2025-08-30,Henson Ltd,Europe,Retail,SaaS License Pro,6,1200,7200,David Kim,Website,Proposal,50
+TXN-1328,2025-09-26,Johnson-Clements,Asia Pacific,Healthcare,Enterprise Pack,3,50000,150000,David Kim,Referral,Closed Won,100
+TXN-1329,2025-09-05,Perry Inc,Europe,Retail,AI Module Addon,1,15000,15000,David Kim,Event,Negotiation,75
+TXN-1330,2025-11-07,"Simon, Willis and Bishop",North America,Manufacturing,Enterprise Pack,11,50000,550000,James Carter,Website,Closed Won,100
+TXN-1331,2025-10-09,Conway-Roberts,North America,Retail,SaaS License Pro,4,1200,4800,David Kim,Cold Call,Discovery,20
+TXN-1332,2025-08-25,"Chavez, Hall and Griffin",North America,Retail,AI Module Addon,15,15000,225000,David Kim,Referral,Qualifying,20
+TXN-1333,2025-09-25,Klein-Davis,North America,Tech,Consulting Hours,18,150,2700,Sarah Miller,Website,Qualifying,20
+TXN-1334,2025-09-04,"Hall, Cruz and Cunningham",LATAM,Manufacturing,SaaS License Pro,9,1200,10800,Elena Rodriguez,Cold Call,Qualifying,20
+TXN-1335,2025-10-23,"Wright, Cunningham and Williams",Europe,Finance,Enterprise Pack,9,50000,450000,Elena Rodriguez,Event,Negotiation,75
+TXN-1336,2025-09-16,Schneider-Martin,North America,Healthcare,SaaS License Basic,14,500,7000,Sarah Miller,Cold Call,Closed Lost,0
+TXN-1337,2025-09-27,Brown Ltd,Asia Pacific,Retail,SaaS License Basic,11,500,5500,James Carter,Cold Call,Closed Lost,0
+TXN-1338,2025-08-27,Hughes-May,Europe,Tech,SaaS License Basic,6,500,3000,Elena Rodriguez,Website,Negotiation,75
+TXN-1339,2025-10-07,Shaffer-Fuller,Asia Pacific,Healthcare,Consulting Hours,13,150,1950,Elena Rodriguez,Cold Call,Qualifying,20
+TXN-1340,2025-10-08,Suarez Inc,Europe,Retail,Consulting Hours,9,150,1350,Sarah Miller,Event,Closed Won,100
+TXN-1341,2025-08-26,"Bauer, Martin and Campbell",Asia Pacific,Finance,AI Module Addon,6,15000,90000,James Carter,LinkedIn,Proposal,50
+TXN-1342,2025-09-14,Freeman Group,LATAM,Retail,SaaS License Pro,14,1200,16800,Sarah Miller,Referral,Discovery,20
+TXN-1343,2025-11-08,Robinson Ltd,Europe,Tech,SaaS License Pro,18,1200,21600,Elena Rodriguez,Referral,Closed Won,100
+TXN-1344,2025-09-09,Walton-Lee,North America,Healthcare,SaaS License Basic,7,500,3500,Sarah Miller,Cold Call,Negotiation,75
+TXN-1345,2025-09-18,Mullen Group,North America,Retail,Consulting Hours,4,150,600,James Carter,Event,Qualifying,20
+TXN-1346,2025-10-12,"Johnson, Garcia and Nichols",Asia Pacific,Retail,AI Module Addon,13,15000,195000,Elena Rodriguez,Event,Negotiation,75
+TXN-1347,2025-10-01,Hansen-Mclaughlin,Europe,Finance,AI Module Addon,7,15000,105000,Sarah Miller,Referral,Closed Won,100
+TXN-1348,2025-10-03,Hurst-Ross,LATAM,Finance,SaaS License Pro,1,1200,1200,David Kim,LinkedIn,Qualifying,20
+TXN-1349,2025-10-17,Hughes-Mcdonald,Asia Pacific,Healthcare,AI Module Addon,8,15000,120000,Sarah Miller,Referral,Qualifying,20
+TXN-1350,2025-08-31,"Gonzalez, Hunt and Phillips",Europe,Tech,SaaS License Pro,7,1200,8400,David Kim,Website,Negotiation,75
+TXN-1351,2025-09-29,Patterson-Charles,North America,Retail,AI Module Addon,1,15000,15000,Elena Rodriguez,Website,Closed Won,100
+TXN-1352,2025-09-11,Baldwin Ltd,Asia Pacific,Healthcare,AI Module Addon,11,15000,165000,David Kim,Website,Negotiation,75
+TXN-1353,2025-10-06,Paul LLC,North America,Manufacturing,Enterprise Pack,12,50000,600000,Sarah Miller,Cold Call,Discovery,20
+TXN-1354,2025-10-24,Huang Inc,LATAM,Retail,Enterprise Pack,1,50000,50000,David Kim,Event,Negotiation,75
+TXN-1355,2025-11-21,Sanchez Inc,North America,Healthcare,SaaS License Pro,2,1200,2400,David Kim,Cold Call,Closed Won,100
+TXN-1356,2025-10-29,Richardson-Wilson,Asia Pacific,Finance,SaaS License Pro,3,1200,3600,David Kim,Event,Qualifying,20
+TXN-1357,2025-09-18,"Wilson, Gardner and White",North America,Retail,Enterprise Pack,6,50000,300000,Sarah Miller,Referral,Closed Lost,0
+TXN-1358,2025-10-31,Jennings Group,Europe,Manufacturing,AI Module Addon,5,15000,75000,Elena Rodriguez,Website,Closed Won,100
+TXN-1359,2025-09-10,Black Group,LATAM,Manufacturing,AI Module Addon,20,15000,300000,David Kim,Event,Discovery,20
+TXN-1360,2025-09-19,"Zimmerman, Smith and Deleon",Europe,Finance,AI Module Addon,15,15000,225000,Elena Rodriguez,LinkedIn,Closed Lost,0
+TXN-1361,2025-09-15,Thomas-Johnson,Europe,Tech,Consulting Hours,3,150,450,James Carter,Website,Qualifying,20
+TXN-1362,2025-09-17,Graham Ltd,Asia Pacific,Manufacturing,Enterprise Pack,1,50000,50000,Sarah Miller,Referral,Discovery,20
+TXN-1363,2025-08-29,Greene Ltd,Asia Pacific,Healthcare,Consulting Hours,6,150,900,David Kim,Website,Qualifying,20
+TXN-1364,2025-11-20,Vang-Romero,Europe,Retail,Enterprise Pack,2,50000,100000,David Kim,Referral,Qualifying,20
+TXN-1365,2025-10-13,Dalton Group,LATAM,Finance,SaaS License Pro,15,1200,18000,James Carter,Referral,Closed Lost,0
+TXN-1366,2025-09-07,Rodriguez Ltd,North America,Finance,SaaS License Pro,5,1200,6000,David Kim,Website,Negotiation,75
+TXN-1367,2025-09-18,Stewart Group,North America,Healthcare,SaaS License Basic,6,500,3000,David Kim,Cold Call,Closed Lost,0
+TXN-1368,2025-10-19,"Price, Davis and Wood",Asia Pacific,Finance,SaaS License Pro,6,1200,7200,Sarah Miller,Cold Call,Discovery,20
+TXN-1369,2025-09-27,"Wilkerson, Fowler and Davis",Asia Pacific,Retail,AI Module Addon,12,15000,180000,David Kim,Referral,Proposal,50
+TXN-1370,2025-09-03,"Smith, Marshall and Jones",Europe,Retail,Consulting Hours,10,150,1500,James Carter,LinkedIn,Discovery,20
+TXN-1371,2025-09-07,"Bishop, Hamilton and Fischer",Asia Pacific,Tech,SaaS License Pro,16,1200,19200,David Kim,LinkedIn,Discovery,20
+TXN-1372,2025-10-03,Lewis-Lynch,Asia Pacific,Tech,AI Module Addon,7,15000,105000,Sarah Miller,Referral,Discovery,20
+TXN-1373,2025-09-17,"King, Hudson and Mcgee",LATAM,Healthcare,Enterprise Pack,4,50000,200000,Elena Rodriguez,LinkedIn,Qualifying,20
+TXN-1374,2025-08-27,Mccann Group,Asia Pacific,Tech,SaaS License Basic,9,500,4500,Elena Rodriguez,Event,Proposal,50
+TXN-1375,2025-10-20,Davis PLC,Europe,Manufacturing,Enterprise Pack,16,50000,800000,David Kim,LinkedIn,Negotiation,75
+TXN-1376,2025-08-24,Rogers Group,Asia Pacific,Healthcare,AI Module Addon,14,15000,210000,James Carter,LinkedIn,Discovery,20
+TXN-1377,2025-10-28,"Doyle, Ramos and Guerrero",LATAM,Tech,SaaS License Pro,13,1200,15600,Sarah Miller,Cold Call,Proposal,50
+TXN-1378,2025-11-15,Medina-King,Asia Pacific,Tech,SaaS License Pro,3,1200,3600,Sarah Miller,Event,Negotiation,75
+TXN-1379,2025-10-19,Allen-Carter,Europe,Finance,SaaS License Basic,5,500,2500,Elena Rodriguez,Referral,Closed Lost,0
+TXN-1380,2025-11-14,Perry LLC,LATAM,Manufacturing,Consulting Hours,11,150,1650,James Carter,Event,Qualifying,20
+TXN-1381,2025-09-13,Marshall PLC,Asia Pacific,Retail,Consulting Hours,19,150,2850,James Carter,Event,Qualifying,20
+TXN-1382,2025-08-26,Ellis-Jenkins,Asia Pacific,Healthcare,SaaS License Pro,8,1200,9600,David Kim,Event,Discovery,20
+TXN-1383,2025-11-02,Martin Group,Asia Pacific,Healthcare,Enterprise Pack,2,50000,100000,Sarah Miller,Cold Call,Negotiation,75
+TXN-1384,2025-10-08,"Carr, Jenkins and Miller",Europe,Retail,AI Module Addon,19,15000,285000,Sarah Miller,Event,Discovery,20
+TXN-1385,2025-10-02,Mcgrath LLC,Europe,Manufacturing,Enterprise Pack,13,50000,650000,Sarah Miller,Referral,Proposal,50
+TXN-1386,2025-11-16,"Harmon, Alvarez and Washington",Asia Pacific,Manufacturing,SaaS License Pro,12,1200,14400,Elena Rodriguez,Website,Closed Won,100
+TXN-1387,2025-09-03,"Rodgers, Lewis and Sawyer",LATAM,Finance,SaaS License Pro,14,1200,16800,David Kim,Referral,Discovery,20
+TXN-1388,2025-09-12,Lopez-Lawrence,LATAM,Manufacturing,Consulting Hours,14,150,2100,James Carter,Website,Discovery,20
+TXN-1389,2025-11-19,Martin-Frank,LATAM,Retail,SaaS License Basic,12,500,6000,Sarah Miller,Event,Negotiation,75
+TXN-1390,2025-08-26,Sanchez Ltd,Asia Pacific,Tech,Consulting Hours,12,150,1800,James Carter,Referral,Closed Won,100
+TXN-1391,2025-09-05,Osborn-Perez,Europe,Tech,Consulting Hours,1,150,150,Sarah Miller,Website,Closed Won,100
+TXN-1392,2025-10-02,Johnson Ltd,Europe,Retail,Consulting Hours,11,150,1650,James Carter,Website,Closed Won,100
+TXN-1393,2025-10-03,Stout-Wilson,North America,Finance,Consulting Hours,3,150,450,James Carter,LinkedIn,Closed Won,100
+TXN-1394,2025-10-08,Butler PLC,Europe,Finance,Consulting Hours,15,150,2250,Elena Rodriguez,Event,Closed Lost,0
+TXN-1395,2025-10-04,Wood Inc,Europe,Finance,Consulting Hours,19,150,2850,Sarah Miller,LinkedIn,Proposal,50
+TXN-1396,2025-10-20,Gardner-Bullock,North America,Finance,SaaS License Basic,15,500,7500,James Carter,Cold Call,Closed Won,100
+TXN-1397,2025-09-19,"Rhodes, Fields and Turner",Europe,Finance,SaaS License Basic,8,500,4000,Sarah Miller,Referral,Negotiation,75
+TXN-1398,2025-09-28,Chambers Inc,LATAM,Manufacturing,Consulting Hours,1,150,150,Elena Rodriguez,LinkedIn,Closed Lost,0
+TXN-1399,2025-10-14,Frazier Ltd,LATAM,Healthcare,AI Module Addon,13,15000,195000,Sarah Miller,Event,Proposal,50
+TXN-1400,2025-09-27,Craig-Hall,Europe,Retail,Consulting Hours,3,150,450,James Carter,Cold Call,Proposal,50
+TXN-1401,2025-10-05,"Austin, Wright and Buckley",Europe,Tech,SaaS License Basic,5,500,2500,Sarah Miller,LinkedIn,Discovery,20
+TXN-1402,2025-08-26,Liu PLC,North America,Healthcare,Enterprise Pack,18,50000,900000,David Kim,Event,Discovery,20
+TXN-1403,2025-09-01,White Inc,North America,Finance,AI Module Addon,6,15000,90000,James Carter,Cold Call,Closed Lost,0
+TXN-1404,2025-11-11,Smith Inc,LATAM,Retail,SaaS License Pro,20,1200,24000,David Kim,LinkedIn,Negotiation,75
+TXN-1405,2025-08-28,Serrano-Park,Europe,Finance,Consulting Hours,6,150,900,David Kim,Referral,Negotiation,75
+TXN-1406,2025-09-10,Harper-Brown,Asia Pacific,Retail,SaaS License Pro,13,1200,15600,David Kim,LinkedIn,Qualifying,20
+TXN-1407,2025-09-25,Wilson and Sons,Europe,Healthcare,SaaS License Pro,9,1200,10800,James Carter,Referral,Discovery,20
+TXN-1408,2025-10-02,"White, Mckee and Perez",North America,Finance,SaaS License Pro,17,1200,20400,David Kim,Referral,Closed Won,100
+TXN-1409,2025-11-17,Miller-Kirk,LATAM,Healthcare,Enterprise Pack,1,50000,50000,David Kim,LinkedIn,Closed Won,100
+TXN-1410,2025-10-27,"Bailey, Bright and Armstrong",LATAM,Finance,AI Module Addon,9,15000,135000,David Kim,Cold Call,Closed Lost,0
+TXN-1411,2025-09-24,Rich and Sons,Europe,Retail,AI Module Addon,15,15000,225000,James Carter,Event,Closed Lost,0
+TXN-1412,2025-09-09,Murray-Guzman,North America,Manufacturing,SaaS License Basic,13,500,6500,Sarah Miller,Website,Qualifying,20
+TXN-1413,2025-11-12,Williams Group,North America,Finance,SaaS License Pro,12,1200,14400,Elena Rodriguez,Cold Call,Proposal,50
+TXN-1414,2025-09-20,"Nelson, Duran and Taylor",LATAM,Tech,SaaS License Pro,1,1200,1200,Sarah Miller,Website,Closed Lost,0
+TXN-1415,2025-09-30,"Jackson, Johnson and Thomas",Europe,Tech,AI Module Addon,15,15000,225000,David Kim,Website,Qualifying,20
+TXN-1416,2025-11-11,Anderson and Sons,North America,Manufacturing,SaaS License Basic,2,500,1000,David Kim,Event,Closed Won,100
+TXN-1417,2025-09-24,"Estes, Bates and Martinez",Europe,Healthcare,AI Module Addon,2,15000,30000,Sarah Miller,Event,Qualifying,20
+TXN-1418,2025-10-12,Williams Inc,North America,Healthcare,Consulting Hours,14,150,2100,Sarah Miller,Website,Negotiation,75
+TXN-1419,2025-09-28,Smith LLC,Asia Pacific,Tech,SaaS License Basic,1,500,500,James Carter,Cold Call,Proposal,50
+TXN-1420,2025-11-17,"Reilly, Thomas and Morris",LATAM,Finance,AI Module Addon,20,15000,300000,Elena Rodriguez,LinkedIn,Discovery,20
+TXN-1421,2025-11-22,"White, Meyer and Rosario",North America,Finance,SaaS License Pro,11,1200,13200,David Kim,Referral,Proposal,50
+TXN-1422,2025-10-28,Bell PLC,Europe,Healthcare,SaaS License Pro,3,1200,3600,David Kim,Cold Call,Negotiation,75
+TXN-1423,2025-10-23,"Burns, Allen and Hale",Asia Pacific,Healthcare,Enterprise Pack,8,50000,400000,James Carter,Referral,Discovery,20
+TXN-1424,2025-10-23,"Lopez, Wilson and Gonzalez",Asia Pacific,Finance,AI Module Addon,16,15000,240000,Sarah Miller,Referral,Proposal,50
+TXN-1425,2025-08-30,Fletcher Inc,Europe,Healthcare,SaaS License Pro,4,1200,4800,Elena Rodriguez,Cold Call,Closed Lost,0
+TXN-1426,2025-10-24,"Jones, Silva and Morris",North America,Retail,SaaS License Pro,10,1200,12000,Sarah Miller,LinkedIn,Proposal,50
+TXN-1427,2025-10-30,"Dennis, Lambert and Collins",North America,Manufacturing,AI Module Addon,10,15000,150000,Sarah Miller,LinkedIn,Negotiation,75
+TXN-1428,2025-09-17,"Wright, Jones and Lewis",Asia Pacific,Manufacturing,SaaS License Basic,8,500,4000,Sarah Miller,Event,Qualifying,20
+TXN-1429,2025-08-25,Smith-Walker,Europe,Manufacturing,SaaS License Pro,11,1200,13200,Sarah Miller,Referral,Closed Won,100
+TXN-1430,2025-10-07,Robinson PLC,Europe,Finance,Enterprise Pack,6,50000,300000,David Kim,Cold Call,Closed Won,100
+TXN-1431,2025-11-17,"Mathis, Baird and Webb",LATAM,Retail,SaaS License Basic,5,500,2500,James Carter,Website,Proposal,50
+TXN-1432,2025-09-07,"Carlson, Campbell and Webb",Asia Pacific,Retail,Consulting Hours,12,150,1800,Sarah Miller,Referral,Qualifying,20
+TXN-1433,2025-10-17,Rowland Group,LATAM,Healthcare,SaaS License Pro,1,1200,1200,Elena Rodriguez,Referral,Qualifying,20
+TXN-1434,2025-09-16,"Norton, Harris and Hunt",Europe,Healthcare,SaaS License Basic,17,500,8500,David Kim,LinkedIn,Closed Lost,0
+TXN-1435,2025-10-10,Garcia Inc,LATAM,Manufacturing,AI Module Addon,13,15000,195000,James Carter,Referral,Closed Lost,0
+TXN-1436,2025-11-14,Richardson and Sons,Europe,Tech,Consulting Hours,14,150,2100,Elena Rodriguez,LinkedIn,Discovery,20
+TXN-1437,2025-08-28,"Hill, Newman and Nichols",North America,Retail,AI Module Addon,6,15000,90000,David Kim,Website,Qualifying,20
+TXN-1438,2025-11-16,Ferguson LLC,LATAM,Finance,Consulting Hours,10,150,1500,Sarah Miller,Cold Call,Closed Won,100
+TXN-1439,2025-11-22,Hayes LLC,LATAM,Retail,Enterprise Pack,5,50000,250000,David Kim,Website,Qualifying,20
+TXN-1440,2025-11-06,Krueger Ltd,North America,Manufacturing,AI Module Addon,11,15000,165000,Elena Rodriguez,Website,Discovery,20
+TXN-1441,2025-10-22,Rodriguez-Quinn,Asia Pacific,Finance,Consulting Hours,5,150,750,Elena Rodriguez,Cold Call,Discovery,20
+TXN-1442,2025-09-28,Sanchez-Collins,Asia Pacific,Manufacturing,Enterprise Pack,14,50000,700000,Elena Rodriguez,LinkedIn,Discovery,20
+TXN-1443,2025-11-13,Scott-Williams,North America,Manufacturing,SaaS License Pro,13,1200,15600,David Kim,Referral,Discovery,20
+TXN-1444,2025-11-03,"Jacobs, Collins and Davies",Asia Pacific,Manufacturing,SaaS License Basic,2,500,1000,Elena Rodriguez,Cold Call,Closed Won,100
+TXN-1445,2025-09-07,Harris-English,North America,Healthcare,SaaS License Pro,4,1200,4800,David Kim,Cold Call,Closed Won,100
+TXN-1446,2025-09-05,"Miller, Watson and Lambert",LATAM,Manufacturing,Consulting Hours,4,150,600,Sarah Miller,Website,Proposal,50
+TXN-1447,2025-10-17,"Lara, Sosa and Schmidt",Asia Pacific,Manufacturing,AI Module Addon,14,15000,210000,Elena Rodriguez,Cold Call,Qualifying,20
+TXN-1448,2025-10-07,Holland Inc,LATAM,Retail,AI Module Addon,7,15000,105000,Elena Rodriguez,Website,Qualifying,20
+TXN-1449,2025-09-02,Sharp-Mitchell,LATAM,Retail,AI Module Addon,15,15000,225000,Elena Rodriguez,Cold Call,Qualifying,20
+TXN-1450,2025-08-24,Gonzalez-Alexander,North America,Finance,Enterprise Pack,9,50000,450000,James Carter,Event,Negotiation,75
+TXN-1451,2025-10-25,Pratt-Williamson,Europe,Finance,SaaS License Pro,7,1200,8400,Elena Rodriguez,Event,Proposal,50
+TXN-1452,2025-11-10,Gomez LLC,Asia Pacific,Healthcare,AI Module Addon,18,15000,270000,David Kim,Referral,Closed Lost,0
+TXN-1453,2025-09-03,Hudson PLC,LATAM,Manufacturing,Enterprise Pack,3,50000,150000,David Kim,Cold Call,Closed Won,100
+TXN-1454,2025-11-02,Williams-Wells,North America,Manufacturing,AI Module Addon,3,15000,45000,Elena Rodriguez,LinkedIn,Qualifying,20
+TXN-1455,2025-10-01,Brown and Sons,North America,Manufacturing,AI Module Addon,9,15000,135000,David Kim,Website,Closed Won,100
+TXN-1456,2025-09-17,Williams-Le,LATAM,Healthcare,AI Module Addon,11,15000,165000,Sarah Miller,Event,Discovery,20
+TXN-1457,2025-10-31,Charles-Nelson,North America,Tech,SaaS License Basic,20,500,10000,David Kim,Website,Negotiation,75
+TXN-1458,2025-09-11,Avery and Sons,Europe,Healthcare,SaaS License Basic,9,500,4500,Sarah Miller,Referral,Negotiation,75
+TXN-1459,2025-10-08,Patterson and Sons,LATAM,Retail,Enterprise Pack,11,50000,550000,James Carter,Cold Call,Closed Won,100
+TXN-1460,2025-11-15,Haynes-Walker,Europe,Healthcare,SaaS License Basic,12,500,6000,Sarah Miller,Website,Proposal,50
+TXN-1461,2025-09-09,Hodges-Olson,North America,Finance,Consulting Hours,3,150,450,James Carter,Referral,Closed Won,100
+TXN-1462,2025-10-19,Clements-Shaw,North America,Tech,SaaS License Pro,4,1200,4800,James Carter,Referral,Negotiation,75
+TXN-1463,2025-10-19,Johnson PLC,Europe,Retail,Consulting Hours,19,150,2850,Elena Rodriguez,Website,Discovery,20
+TXN-1464,2025-09-08,Sandoval-Barton,Asia Pacific,Tech,Consulting Hours,4,150,600,James Carter,Event,Qualifying,20
+TXN-1465,2025-10-24,"Mccall, Ramirez and Barnes",Asia Pacific,Manufacturing,SaaS License Pro,16,1200,19200,James Carter,Event,Proposal,50
+TXN-1466,2025-09-07,"Thomas, Lin and Johnson",North America,Retail,Consulting Hours,18,150,2700,Elena Rodriguez,Referral,Closed Lost,0
+TXN-1467,2025-09-20,"Young, Williams and Jones",Europe,Retail,SaaS License Pro,13,1200,15600,Elena Rodriguez,Event,Closed Lost,0
+TXN-1468,2025-10-15,Swanson-Allen,Asia Pacific,Manufacturing,AI Module Addon,7,15000,105000,Sarah Miller,LinkedIn,Closed Won,100
+TXN-1469,2025-11-06,"Elliott, Weaver and Williams",Asia Pacific,Tech,SaaS License Basic,13,500,6500,Elena Rodriguez,Event,Closed Won,100
+TXN-1470,2025-09-05,Parker LLC,North America,Manufacturing,Consulting Hours,15,150,2250,Elena Rodriguez,Website,Closed Won,100
+TXN-1471,2025-10-05,Thomas-Adams,Europe,Tech,AI Module Addon,15,15000,225000,James Carter,Website,Discovery,20
+TXN-1472,2025-09-27,Griffin-Velez,Asia Pacific,Healthcare,Consulting Hours,20,150,3000,David Kim,Website,Negotiation,75
+TXN-1473,2025-09-16,"Hunter, Howard and Hall",Asia Pacific,Healthcare,AI Module Addon,3,15000,45000,Elena Rodriguez,Cold Call,Discovery,20
+TXN-1474,2025-10-22,Miller Inc,LATAM,Tech,SaaS License Basic,2,500,1000,James Carter,Event,Negotiation,75
+TXN-1475,2025-11-01,Kane PLC,Europe,Healthcare,AI Module Addon,11,15000,165000,David Kim,Website,Qualifying,20
+TXN-1476,2025-11-21,Fernandez-Sanders,North America,Healthcare,Enterprise Pack,19,50000,950000,Elena Rodriguez,Cold Call,Closed Won,100
+TXN-1477,2025-11-22,"King, Adams and Nunez",LATAM,Tech,SaaS License Pro,11,1200,13200,Sarah Miller,Cold Call,Closed Won,100
+TXN-1478,2025-09-07,"Mcgrath, Anderson and Brown",Europe,Tech,Enterprise Pack,3,50000,150000,Elena Rodriguez,Referral,Qualifying,20
+TXN-1479,2025-10-06,Moss-Thomas,Europe,Healthcare,Consulting Hours,5,150,750,David Kim,Website,Proposal,50
+TXN-1480,2025-10-24,Frazier-Oliver,North America,Finance,Consulting Hours,11,150,1650,James Carter,Cold Call,Closed Won,100
+TXN-1481,2025-10-17,"Reed, Harding and Goodwin",Europe,Manufacturing,Consulting Hours,13,150,1950,Sarah Miller,Cold Call,Qualifying,20
+TXN-1482,2025-09-05,Hunt Inc,North America,Manufacturing,Enterprise Pack,1,50000,50000,Elena Rodriguez,Cold Call,Closed Lost,0
+TXN-1483,2025-11-10,Smith-French,Europe,Retail,Enterprise Pack,8,50000,400000,David Kim,Website,Negotiation,75
+TXN-1484,2025-11-11,Brown-Davenport,North America,Healthcare,AI Module Addon,9,15000,135000,David Kim,Referral,Closed Lost,0
+TXN-1485,2025-11-19,"Rodriguez, Cochran and Webb",Europe,Retail,SaaS License Basic,11,500,5500,Sarah Miller,Referral,Closed Won,100
+TXN-1486,2025-10-10,Bishop Inc,Asia Pacific,Finance,SaaS License Pro,15,1200,18000,David Kim,Referral,Discovery,20
+TXN-1487,2025-08-24,Campbell PLC,North America,Healthcare,Enterprise Pack,2,50000,100000,Sarah Miller,Event,Closed Lost,0
+TXN-1488,2025-10-14,"Lawson, Washington and Collins",LATAM,Healthcare,Enterprise Pack,8,50000,400000,James Carter,Cold Call,Proposal,50
+TXN-1489,2025-10-18,Miller-Lopez,North America,Finance,SaaS License Basic,5,500,2500,Elena Rodriguez,LinkedIn,Closed Won,100
+TXN-1490,2025-11-03,"Bowers, Graham and Garcia",LATAM,Healthcare,SaaS License Pro,18,1200,21600,Elena Rodriguez,Website,Closed Won,100
+TXN-1491,2025-09-06,Mendez-Chambers,Asia Pacific,Healthcare,SaaS License Basic,2,500,1000,Elena Rodriguez,Referral,Qualifying,20
+TXN-1492,2025-08-29,Bennett-Flores,Asia Pacific,Healthcare,Enterprise Pack,7,50000,350000,Elena Rodriguez,Referral,Closed Won,100
+TXN-1493,2025-10-17,Lynn-Williams,Europe,Retail,SaaS License Basic,3,500,1500,Sarah Miller,LinkedIn,Qualifying,20
+TXN-1494,2025-10-23,Ferguson PLC,LATAM,Healthcare,SaaS License Pro,4,1200,4800,David Kim,Event,Closed Won,100
+TXN-1495,2025-10-21,"Wallace, Tapia and Doyle",Asia Pacific,Manufacturing,SaaS License Pro,18,1200,21600,James Carter,Event,Closed Won,100
+TXN-1496,2025-08-30,Smith and Sons,Asia Pacific,Manufacturing,Consulting Hours,5,150,750,Elena Rodriguez,Cold Call,Negotiation,75
+TXN-1497,2025-10-19,Paul-Liu,LATAM,Tech,Consulting Hours,14,150,2100,James Carter,Website,Closed Lost,0
+TXN-1498,2025-09-05,Walls-Acevedo,LATAM,Healthcare,AI Module Addon,13,15000,195000,Sarah Miller,Website,Qualifying,20
+TXN-1499,2025-11-05,Chapman-Rodriguez,Asia Pacific,Retail,Consulting Hours,8,150,1200,James Carter,Cold Call,Discovery,20
